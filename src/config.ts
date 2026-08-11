@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Lyhor Hieng",
-  title: "Backend, API Developer | .NET, Spring Boot, Dynamics 365, SQL",
+  title: "Backend Developer | .NET · Node.js · Dynamics 365 · Spring Boot",
   description: "Portfolio website of Lyhor Hieng",
   accentColor: "#4ecdf3ff",
   social: {
@@ -11,15 +11,16 @@ export const siteConfig = {
     telegram: "https://t.me/Lyhor_Hieng",
   },
   aboutMe:
-    "Backend developer specializing in .NET, Spring Boot, Dynamics 365, and SQL. Experienced in designing reliable APIs, automating workflows, and optimizing database performance to support business growth.",
+    "Full-stack developer with strong backend roots in .NET, Spring Boot, and Dynamics 365. Experienced in building APIs, Telegram bots, PCF controls, CRM plugins, and deploying production-ready systems on self-managed VPS infrastructure.",
   skills: [
     "C# / .NET",
     "Dynamics 365 / Power Platform",
-    "SQL Server & PostgreSQL",
+    "Node.js & Telegram Bot (grammY)",
+    "SQL Server, PostgreSQL & MariaDB",
     "API Development & Integration",
     "Spring Boot (Java)",
-    "Docker & Web Hosting",
-    "Third-Party API Integration",
+    "React & PCF Controls",
+    "Docker & Linux VPS",
   ],
   projects: [
     {
@@ -42,6 +43,13 @@ export const siteConfig = {
         "Spring Boot API for secure online payments through ABA PayWay gateway.",
       link: "https://github.com/HiengLyhor/Spring-Boot-ABA-PayWay",
       skills: ["Java", "Spring Boot", "API Development", "Payment Gateway Integration"],
+    },
+    {
+      name: "BGS Logistic Bot",
+      description:
+        "Telegram bot automating parcel pickup coordination for 200+ shops, with smart deadline assignment, scheduled broadcasts, driver group binding, and photo confirmation. Deployed on a self-managed Debian VPS.",
+      link: "https://t.me/BGSLogiCoreBot",
+      skills: ["Node.js", "grammY", "MariaDB", "Telegram Bot API", "Linux VPS"],
     },
   ],
   experience: [
